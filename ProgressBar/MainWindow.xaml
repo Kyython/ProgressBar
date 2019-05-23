@@ -1,0 +1,15 @@
+﻿<Window x:Class="ProgressBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgressBar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle Name="firstRectangle" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="58" Margin="71,189,0,0" Stroke="Black" VerticalAlignment="Top" Width="221"/>
+        <Rectangle Name="secondRectangle" Fill="Green" HorizontalAlignment="Left" Height="58" Margin="71,189,0,0" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+
+
+    </Grid>
+</Window>
